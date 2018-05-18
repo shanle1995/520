@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.bootcss.com/vue/2.5.17-beta.0/vue.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+	</head>
+	<body>
+		<div id="box_border">
+			<div class="call">你是傻子吗？</div>
+			  <button type="danger" class="Showbutton" @click='ShowButton'>是</button>
+			  <button class="Nobutton" 
+			  	@mouseenter="hover" 
+			  	v-model="Text"
+			  	>{{Text}}</button>
+			  	
+			  	<div class="all">
+			  		<div class="wrapper">
+					<svg width="100%" height="100">
+					    <text text-anchor="middle" x="50%" y="50%" class="text text-1">
+					        很诚实给你比心
+					    </text>
+					    <text text-anchor="middle" x="50%" y="50%" class="text text-2">
+					        很诚实给你比心
+					    </text>
+					    <text text-anchor="middle" x="50%" y="50%" class="text text-3">
+					        很诚实给你比心
+					    </text>
+					    <text text-anchor="middle" x="50%" y="50%" class="text text-4">
+					        很诚实给你比心
+					    </text>
+					</svg> 
+					</div>
+					<div class="chest">
+					<div class="heart left side top"></div>
+					<div class="heart center"></div>
+					<div class="heart right side"></div>
+				</div>
+			  	</div>
+			  	
+		</div>
+	</body>
+</html>
